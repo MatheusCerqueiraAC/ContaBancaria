@@ -13,12 +13,7 @@ public class Conta {
     }
 
     public double transfere(double valor) {
-        if(saldoInicial < valor) {
-            return saldoInicial = saldoInicial;
-        } else {
             return saldoInicial -= valor;
-        }
-        
     }
 
 }
